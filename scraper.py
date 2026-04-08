@@ -24,4 +24,4 @@ for job in jobs:
 df = pd.DataFrame(job_list)
 df.to_csv("jobs.csv", index=False)
 
-print("تم استخراج البيانات بنجاح!")
+print("Data has been successfully extracted!")
